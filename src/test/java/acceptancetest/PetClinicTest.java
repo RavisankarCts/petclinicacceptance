@@ -17,13 +17,5 @@ public class PetClinicTest {
 	        Assert.assertEquals("PetClinic :: a Spring Framework demonstration", page.getTitleText());
 	    }
 	}
-	
-	@Test
-	public void testFindOwners1() throws Exception {
-	   assertTrue(false);
-	}
-	
-	
-	
 
 }
