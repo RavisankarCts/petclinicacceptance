@@ -13,7 +13,7 @@ public class PetClinicTest {
 	@Test
 	public void testFindOwners() throws Exception {
 	    try (final WebClient webClient = new WebClient()) {
-	        final HtmlPage page = webClient.getPage("http://localhost:8090/petclinic/owners/find.html");
+	        final HtmlPage page = webClient.getPage("http://localhost:8080/petclinic/owners/find.html");
 	        Assert.assertEquals("PetClinic :: a Spring Framework demonstration", page.getTitleText());
 	    }
 	}
